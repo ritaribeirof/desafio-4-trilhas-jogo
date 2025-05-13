@@ -23,6 +23,6 @@ public class PauseMenu : MonoBehaviour
     {
         // Ação para voltar ao menu principal, você pode personalizar isso conforme necessário
         Time.timeScale = 1;
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu"); // Exemplo
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu"); 
     }
 }
