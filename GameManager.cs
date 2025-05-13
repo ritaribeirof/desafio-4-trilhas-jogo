@@ -42,4 +42,9 @@ public class GameManager : MonoBehaviour
         gameOverText.enabled = true;
         Time.timeScale = 0;
     }
+
+    public void AdicionarPontuacao(int pontos)
+    {
+        Score += pontos;
+    }
 }
