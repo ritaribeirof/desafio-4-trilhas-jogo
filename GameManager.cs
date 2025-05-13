@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
     {
         // História com base na alimentação das comidas típicas
         string intro = "A Cobra de São Luís do Maranhão, mitológica e alimentada pelas comidas típicas da cidade, cresce a cada refeição...\n" +
-                       "Com arroz de cuxá, juçara, guaraná Jesus e outros pratos, ela vai ficando mais forte e destrutiva.\n";
+                       "Com arroz de cuxá, juçara, e o refrigente guaraná Jesus entre outros pratos, que chegam até a ela. Dessa forma, a mesma vai ficando mais forte e destrutiva.\n";
 
         storyText.enabled = true;  // Habilita o texto da história
         storyText.text = "";  // Limpa o texto antes de começar
